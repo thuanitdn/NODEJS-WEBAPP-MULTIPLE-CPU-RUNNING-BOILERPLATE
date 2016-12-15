@@ -17,6 +17,8 @@ if (cluster.isMaster) {
     console.log(`worker ${worker.process.pid} died`);
   });
 } else {
+  // initial cors
+  require('./cors')(express);
   // initial http
   require('./http')(express);
   // initial view

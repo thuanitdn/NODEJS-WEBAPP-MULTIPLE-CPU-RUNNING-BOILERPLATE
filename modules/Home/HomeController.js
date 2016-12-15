@@ -1,4 +1,4 @@
 
-exports.actionIndex=function(req,res){
+exports.ActionIndex=function(req,res){
     res.render('layout.html');
 }
