@@ -1,0 +1,21 @@
+{
+  "name": "node_featherjs_boilerplate",
+  "description": "this is boilerplate for big project",
+  "main": "server.js",
+  "authors": [
+    "thuanlv <vanthuan296@gmail.com.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/thuanitdn/NODEJS_WEBAPP_MULTI_CPU_RUNNING_BOILERPLATE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static_file/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

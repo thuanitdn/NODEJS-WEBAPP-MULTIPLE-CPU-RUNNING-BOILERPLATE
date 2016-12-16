@@ -3,9 +3,9 @@ const numCPUs = require('os').cpus().length;
 const express = require('./express');
 const http = require('http').Server(express);
 const port = process.env.PORT || 1111;
-var colors = require('colors');
-var requireDirectory = require('require-directory');
-var modulesController = requireDirectory(module, '../modules');
+const colors = require('colors');
+const requireDirectory = require('require-directory');
+const modulesController = requireDirectory(module, '../modules');
 
 if (cluster.isMaster) {
   // Fork workers.
@@ -21,6 +21,8 @@ if (cluster.isMaster) {
   require('./cors')(express);
   // initial http
   require('./http')(express);
+  // initial static folder
+  require('./static')(express);
   // initial view
   require('./view')(express);
   // initial route
