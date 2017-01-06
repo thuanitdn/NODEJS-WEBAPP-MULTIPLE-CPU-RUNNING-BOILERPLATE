@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/thuanitdn/NODEJS-WEBAPP-MULTIPLE-CPU-RUNNING-BOILERPLATE/badge.svg?branch=master)](https://coveralls.io/github/thuanitdn/NODEJS-WEBAPP-MULTIPLE-CPU-RUNNING-BOILERPLATE?branch=master)
